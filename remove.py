@@ -3,8 +3,8 @@ import filecmp
 import shutil
 from pathlib import Path
 
-folder1 = Path(r"E:\laptop old\backup\utkarsh\desktop\family\daddy\daddy\pixel\untitled")
-folder2 = Path(r"E:\laptop old\backup\utkarsh\desktop\family\daddy\daddy\pixel\Photos from 2017")
+folder1 = Path(r"path to folder 1")#Path of folder where the files get removed from
+folder2 = Path(r"path to folder 2")#path of the folder which you don't want to be edited
 
 def compare_and_remove_duplicates(folder1_path: Path, folder2_path: Path, dry_run: bool = True) -> tuple[list, list]:
    
